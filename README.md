@@ -83,7 +83,7 @@ for t in range(1, N):
     S[t] = S[t-1] * np.exp((mu - 0.5 * sigma**2)*dt + sigma*np.sqrt(dt)*Z[t])
 ```
 
-You can check out the full simulation code [here](GBM_Code.py)
+You can check out the full simulation code [here](https://github.com/Danzo711/quant-simulations-and-risks/blob/main/GBM_Code.py)
 
 ---
 
